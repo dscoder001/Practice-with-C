@@ -6,9 +6,9 @@
 int main(){
 int i,x,j, n;
 float s=0;
-printf("Enter a numebr:");
+printf("Enter a numebr of terms:");
 scanf("%d", &n);
-printf("Enter a numebr x:");
+printf("Enter numebr x:");
 scanf("%d", &x);
 for(i=1;i<=n;i=i+1){
     int f = 1;
@@ -16,8 +16,7 @@ for(j=2;j<=(i+1);j++){
     f=f*j;
 }
   s =s + pow(x,1)/f;
-}
- printf("%f", s);
+ printf("%f\n", s);}
 
  return 0;
 }
