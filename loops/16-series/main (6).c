@@ -6,7 +6,7 @@
 int main(){
 int i,x,j, n;
 float s=0;
-printf("Enter a numebr of terms:");
+printf("Enter a number of terms:");
 scanf("%d", &n);
 printf("Enter numebr x:");
 scanf("%d", &x);
